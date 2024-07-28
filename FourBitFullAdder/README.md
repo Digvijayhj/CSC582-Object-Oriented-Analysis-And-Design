@@ -56,7 +56,7 @@ This project implements a four-bit full adder using Java. The adder is tested us
 1. **Clone the repository:**
 
 ```sh
-git clone https://github.com/yourusername/fourbitfulladder.git
+git clone https://github.com/Digvijayhj/CSC582-Object-Oriented-Analysis-And-Design.git
 cd fourbitfulladder
 ```
 
