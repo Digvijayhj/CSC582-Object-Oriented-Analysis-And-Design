@@ -1,8 +1,5 @@
 # Four Bit Full Adder Project
 
-
-```markdown
-
 ## Project Description
 
 This project implements a four-bit full adder using Java. The adder is tested using the Spock framework with Groovy for testing purposes.
@@ -16,6 +13,7 @@ This project implements a four-bit full adder using Java. The adder is tested us
 - IntelliJ IDEA (recommended for development)
 - Groovy
 - Spock framework
+
 
 ### Project Structure
 
