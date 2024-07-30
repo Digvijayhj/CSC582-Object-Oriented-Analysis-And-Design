@@ -14,7 +14,6 @@ This project implements a four-bit full adder using Java. The adder is tested us
 - Groovy
 - Spock framework
 
-
 ### Project Structure
 
 ```plaintext
@@ -96,12 +95,12 @@ mvn -Dtest=FourBitAdderSpec test
 
 1. **Open IntelliJ IDEA.**
 2. **Import the project:**
-    - Go to `File > Open` and select the project's root directory.
-    - IntelliJ will detect the `pom.xml` file and import the project as a Maven project.
+   - Go to `File > Open` and select the project's root directory.
+   - IntelliJ will detect the `pom.xml` file and import the project as a Maven project.
 3. **Build the project:**
-    - Go to `Build > Build Project` or press `Ctrl+F9`.
+   - Go to `Build > Build Project` or press `Ctrl+F9`.
 4. **Run tests:**
-    - Right-click on the test class or method and select `Run`.
+   - Right-click on the test class or method and select `Run`.
 
 ## Project Dependencies
 
@@ -117,7 +116,20 @@ These dependencies are managed using Maven and are specified in the `pom.xml` fi
 
 This project requires Java 11. Ensure that your environment is set up to use Java 11 before building or running the project.
 
+## Javadoc Documentation
+
+Javadoc documentation for this project has been generated as an alternative to Doxygen. To generate the Javadoc documentation, run the following command:
+
+```sh
+javadoc -d docs src/main/java/**/*.java
+```
+
+The generated documentation can be found in the `docs` directory.
+
 ## Notes
 
 - Ensure that you have the correct versions of Java, Maven, Groovy, and Spock installed.
 - If you encounter any issues, ensure that your environment variables are correctly set, especially `JAVA_HOME` and `MAVEN_HOME`.
+- For detailed project documentation, refer to the Javadoc generated in the `docs` directory.
+
+
