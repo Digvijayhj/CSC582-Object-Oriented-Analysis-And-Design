@@ -4,6 +4,11 @@
 
 This project implements a four-bit full adder using Java. The adder is tested using the Spock framework with Groovy for testing purposes.
 
+## Contributors
+- Deepak Anantha
+- Digvijay Hethur Jagadeesha
+- Gokul Sekar
+
 ## Project Setup
 
 ### Prerequisites
@@ -42,11 +47,11 @@ This project implements a four-bit full adder using Java. The adder is tested us
             └── edu
                 └── csudh
                     └── ooad
-                        ├──  FourBitAdderSpec.groovy
-                        ├──  AndGateSpec.groovy
-                        ├──  FullAdderSpec.groovy
-                        ├──  HalfAdderSpec.groovy
-                        ├──  NandGateSpec.groovy
+                        ├── FourBitAdderSpec.groovy
+                        ├── AndGateSpec.groovy
+                        ├── FullAdderSpec.groovy
+                        ├── HalfAdderSpec.groovy
+                        ├── NandGateSpec.groovy
                         └── OrGateSpec.groovy
 ```
 
@@ -126,10 +131,16 @@ javadoc -d docs src/main/java/**/*.java
 
 The generated documentation can be found in the `docs` directory.
 
+## Code Formatting
+
+For code formatting, instead of using Astyle, I used the built-in formatting tools provided by IntelliJ IDEA. You can reformat your code in IntelliJ IDEA by following these steps:
+
+1. **Open IntelliJ IDEA.**
+2. **Go to the `Code` menu and select `Reformat Code`, or use the shortcut `Ctrl + Alt + L` (Windows/Linux) or `Cmd + Alt + L` (macOS).**
+3. **The code will be automatically formatted according to the code style settings configured in IntelliJ IDEA.**
+
 ## Notes
 
 - Ensure that you have the correct versions of Java, Maven, Groovy, and Spock installed.
 - If you encounter any issues, ensure that your environment variables are correctly set, especially `JAVA_HOME` and `MAVEN_HOME`.
 - For detailed project documentation, refer to the Javadoc generated in the `docs` directory.
-
-
