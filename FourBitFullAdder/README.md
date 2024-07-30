@@ -25,6 +25,7 @@ This project implements a four-bit full adder using Java. The adder is tested us
 .
 ├── pom.xml
 ├── README.md
+├── docs
 ├── TestCaseExecutionScreenShot1.png
 ├── TestCaseExecutionScreenShot2.png
 └── src
